@@ -1,6 +1,6 @@
-<h2>Who's on the ISS right now?!</h2>
-<button (click)="findAstronauts()"> Search</button>
-
-<ul *ngIf="people">
-  <li *ngFor="let astronaut of people"> {{astronaut.name}}</li>
-</ul>
+<section>
+  <button (click)="findAstronauts()"> Search</button>
+  <ul *ngIf="people">
+    <li *ngFor="let astronaut of people"> {{astronaut.name}}</li>
+  </ul>
+</section>
